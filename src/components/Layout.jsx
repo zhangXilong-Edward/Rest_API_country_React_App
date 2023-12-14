@@ -8,7 +8,7 @@ export default function Layout() {
     return (
         <div className={darkMode?'dark container': 'container'}>
             <div className={(darkMode ? 'dark header' : 'header')}>
-                <h4>Where in the world?</h4>
+                <h1>Where in the world?</h1>
                 <div className='dark-toggle' onClick={() => { setDarkMode(darkMode => !darkMode) }}>
                     {darkMode ? (<p><i className="fa">&#xf185;</i>&nbsp;Light</p>) : <p><i className="fa">&#xf186;</i>&nbsp;Dark</p>}
                 </div>
